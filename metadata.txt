@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Galton
+qgisMinimumVersion=2.0
+description=Qgis оболочка для сервиса построения изохрон Galton
+version=0.1
+author=Konuchov Artem
+email=konuchovartem@gmail.com
+
+about=Оболочка для сервиса построения изохрон Galton от Urbica
+
+tracker=https://github.com/ganjasan/qgis_galton.git
+repository=https://github.com/ganjasan/qgis_galton.git
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=poligons, isochrones
+
+homepage=https://github.com/ganjasan/qgis_galton.git
+category=Vector
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+

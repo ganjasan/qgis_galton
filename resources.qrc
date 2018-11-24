@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/Galton" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>
